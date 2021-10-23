@@ -16,6 +16,7 @@ const App = () => {
   return (
     <div className="container">
       <form className="form">
+        <label>Digite abaixo o CPF, ou, CNPJ e veja a validação</label>
         <input 
         placeholder="Digite seu CPF, ou, CNPJ"
         onChange={handleChangeMask} value={valor}

@@ -18,9 +18,11 @@
   width: 90%;
 }
 .form input[type="text"]{
-  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
   min-width: 323px;
   max-width: 323px;
+  padding: 10px;
   width: 100%;
 }
 @media(min-width: 700px){
