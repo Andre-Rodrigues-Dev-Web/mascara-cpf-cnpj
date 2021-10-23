@@ -1,0 +1,30 @@
+.container{
+  background-color: #9c27b0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form{
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 30vh;
+  padding: 10px 20px;
+  width: 90%;
+}
+.form input[type="text"]{
+  padding: 10px;
+  min-width: 323px;
+  max-width: 323px;
+  width: 100%;
+}
+@media(min-width: 700px){
+  .form{
+    width: 350px;
+  }
+}
